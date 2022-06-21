@@ -656,7 +656,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-size: 16px;
+    font-size: 16px !important;
     font-weight: 400;
     color: #424242!important;
     line-height: 1.4;
