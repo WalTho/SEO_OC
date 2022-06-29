@@ -667,7 +667,24 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 20px !important;
+    font-weight: bold;
+    color: #6b6b6b !important;
+}
+
+.citation {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-size: 20px !important;
+    font-style: italic;
+    color: #6b6b6b !important;
+}
+.author{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px !important;
+    color: #6b6b6b !important;
 }
 
 .hero-bloc-text-sub {
