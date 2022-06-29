@@ -6,7 +6,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.text-center{
+    font-size: 16px !important;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -100,7 +102,9 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: #424242;
+    font-size: 16px;
+    line-height: 2;
 }
 
 .d-bloc button:hover {
@@ -372,7 +376,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
+        color: #424242;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -508,6 +512,8 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    display: block;
+    margin-bottom: 15px;
 }
 
 .scrollToTop {
@@ -650,8 +656,10 @@ label,
 .btn,
 a {
     font-family: "helvetica";
+    font-size: 16px !important;
     font-weight: 400;
-    color: #575757!important;
+    color: #424242!important;
+    line-height: 1.4;
 }
 
 .container {
@@ -683,6 +691,7 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    font-size: 16px;
 }
 
 .h1 {
@@ -753,7 +762,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(131, 117, 78, 0.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,7 +784,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    position: relative;
+    color: white !important;
 }
 
 .btn-atomic-tangerine {
