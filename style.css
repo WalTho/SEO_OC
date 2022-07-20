@@ -670,6 +670,14 @@ a {
     font-size: 38px;
 }
 
+.examples{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px !important;
+    color: #6b6b6b !important;
+    width: 45%;
+}
+
 .hero-bloc-text-sub {
     font-size: 36px;
 }
