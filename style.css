@@ -235,7 +235,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -376,7 +376,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #424242;
+        color: black;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -658,9 +658,15 @@ a {
     font-family: "helvetica";
     font-size: 16px !important;
     font-weight: 400;
-    color: #424242!important;
+    color: black;
     line-height: 1.4;
 }
+
+.row, .col-sm-4 ul li a{
+    color: white;
+}
+
+
 
 .container {
     max-width: 1000px;
@@ -735,7 +741,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto auto 50px auto;
 }
 
 h2 {
@@ -805,7 +811,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #833d1d;
 }
 
 .tc-white {
@@ -814,12 +820,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background-color: #833d1d;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #984018!important;
     color: #FFFFFF!important;
 }
 
@@ -836,7 +842,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #984018!important;
 }
 
 .icon-dark-slate-blue {
@@ -981,7 +987,7 @@ h4 {
         background: rgba(0, 0, 0, .8);
     }
     #hero-bloc .navbar .nav a {
-        color: rgba(255, 255, 255, .6);
+        color: #000000;
     }
     .hero {
         padding: 50px 0;
