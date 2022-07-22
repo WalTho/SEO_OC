@@ -102,7 +102,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: #424242;
+    color: #FFFFFF;
     font-size: 16px;
     line-height: 2;
 }
@@ -376,7 +376,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #424242;
+        color: #ffffff;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -658,7 +658,7 @@ a {
     font-family: "helvetica";
     font-size: 16px !important;
     font-weight: 400;
-    color: #424242!important;
+    color: #ffffff!important;
     line-height: 1.4;
 }
 
@@ -735,7 +735,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto auto 50px auto;
 }
 
 h2 {
@@ -805,7 +805,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #AC5730;
 }
 
 .tc-white {
@@ -814,12 +814,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #AC5730;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #e1855a!important;
     color: #FFFFFF!important;
 }
 
@@ -832,11 +832,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #AC5730!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #AC5730!important;
 }
 
 .icon-dark-slate-blue {
